@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Stream;
 
-public class MethodRefrenceDemo {
+public class MethodRefrenceDemo<R> {
     //List<String> list =  new ArrayList<String>();
 
     public static void main(String[] args) {
@@ -31,13 +31,16 @@ public class MethodRefrenceDemo {
                     } else {
                         return i;
                     }
-                })
-                .forEach(MethodRefrenceDemo::methodRefrenceTest);
+                }).forEach(MethodRefrenceDemo::methodRefrenceTest);
         Random random = new Random();
         random.ints(999).limit(100).forEach(System.out::println);
     }
 
     public static void methodRefrenceTest(String s) {
         System.out.println(s);
+    }
+
+    public  R get(List<R> l){
+        return null;
     }
 }
