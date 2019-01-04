@@ -2,9 +2,7 @@ package com.importtao.jdk8demo.stream;
 
 import com.importtao.jdk8demo.methodRefrence.MethodRefrenceDemo;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -46,6 +44,11 @@ public class StreamTest {
             }
             return DoubleStream.of(dl);
         }).filter(d-> d>-0.1).forEach(StreamTest::methodRefrenceTest);
+
+        Map<String,String> map = new HashMap<>();
+        map.put("1","v1");
+        map.put("2","v2");
+        map.put("3","v3");
 
     }
 
