@@ -18,7 +18,7 @@ public class MethodRefrenceDemo<R> {
     //List<String> list =  new ArrayList<String>();
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>();
+       /* List<String> list = new ArrayList<String>();
         list.add("1");
         list.add("2");
         list.add("3");
@@ -31,9 +31,22 @@ public class MethodRefrenceDemo<R> {
                     } else {
                         return i;
                     }
-                }).forEach(MethodRefrenceDemo::methodRefrenceTest);
+                }).forEach(MethodRefrenceDemo::methodRefrenceTest);*/
         Random random = new Random();
-        random.ints(999).limit(100).forEach(System.out::println);
+        List<Long> randomList = new ArrayList<Long>();
+        for(int i=0;i<999;i++) randomList.add(random.nextLong());
+        Long t1 = System.currentTimeMillis();
+        //random.ints(999).limit(100).forEach(System.out::println);
+        randomList.stream().map(o->{System.out.println(o);return o*2;}).limit(6).count();
+        Long t2 = System.currentTimeMillis();
+        int i=0;
+        for(Long l:randomList){
+            randomList.set(i,l*2);
+            i++;
+        }
+        Long t3 = System.currentTimeMillis();
+        System.out.println(t2-t1-(t3-t2));
+
     }
 
     public static void methodRefrenceTest(String s) {

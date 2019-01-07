@@ -39,10 +39,10 @@ public class ExecuteHelper {
         };
 
         //测试数组的输出
-        String[] profiles = {"xxx", "yyyyy", "zzzzzzzzzzzz"};
+       /* String[] profiles = {"xxx", "yyyyy", "zzzzzzzzzzzz"};
         Stream.of(profiles).
         String profilesStr = Arrays.stream(profiles).reduce((a, b) -> a + ", " + b).get();
-        System.out.println(profilesStr + "=======\n" + Arrays.toString(profiles));
+        System.out.println(profilesStr + "=======\n" + Arrays.toString(profiles));*/
 
     }
 
