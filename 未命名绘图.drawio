@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T03:28:22.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="KVyhAVFzAy9ORnZtsXu2" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T03:39:52.283Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="jnEf1sTojXX77qQ8mxvb" version="16.2.2" type="github">
   <diagram name="Page-1" id="dd472eb7-4b8b-5cd9-a60b-b15522922e76">
-    <mxGraphModel dx="1038" dy="1497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1442" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,6 +93,36 @@
         </mxCell>
         <mxCell id="nypSkxeh19CnlEw6hLjK-36" value="供&lt;br&gt;应" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="490" y="-20" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-62" value="原料清单" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=10;fillColor=#6666FF;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-80" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-63" value="高钛渣" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;opacity=70;" vertex="1" parent="nypSkxeh19CnlEw6hLjK-62">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-64" value="石油焦" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;opacity=70;" vertex="1" parent="nypSkxeh19CnlEw6hLjK-62">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-65" value="氯气" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;opacity=70;" vertex="1" parent="nypSkxeh19CnlEw6hLjK-62">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;opacity=70;" vertex="1" parent="nypSkxeh19CnlEw6hLjK-62">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-67" value="精制副产物" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=10;fillColor=#6666FF;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-80" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-69" value="次氯酸钠" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;opacity=70;" vertex="1" parent="nypSkxeh19CnlEw6hLjK-67">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-70" value="白灰" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;opacity=70;" vertex="1" parent="nypSkxeh19CnlEw6hLjK-67">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-68" value="盐酸" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;opacity=70;" vertex="1" parent="nypSkxeh19CnlEw6hLjK-67">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nypSkxeh19CnlEw6hLjK-71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=10;opacity=70;" vertex="1" parent="nypSkxeh19CnlEw6hLjK-67">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
